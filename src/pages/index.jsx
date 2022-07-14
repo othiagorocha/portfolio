@@ -12,7 +12,7 @@ export default function Home() {
         <Name>Olá, sou Thiago Rocha</Name>
         <Function>Front End Developer</Function>
         <Intro>Graduado em Desenvolvimento WEB, 
-          tenho experiência em (HTML, CSS, Javascript, ReactJS, NextJS, entre outros),
+          tenho conhecimento em (HTML, CSS, Javascript, ReactJS, NextJS, entre outros),
           busco atender de forma estratégica as demandas do mercado de trabalho.
         </Intro>
         <Link href="projects">
