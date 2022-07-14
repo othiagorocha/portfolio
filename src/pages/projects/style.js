@@ -57,7 +57,7 @@ export const TitleProject = styled.strong``;
 export const Url = styled.a`
   text-decoration: none;
   color: inherit;
- &:hover {
+  &:hover {
   text-decoration: underline;
  }
 `;

@@ -33,8 +33,8 @@ export default function Projects() {
             <Li key={item.id}>
               <TitleProject>{item.name.toUpperCase()}</TitleProject>
               <Description>{item.description}</Description>
-                <Url href={item.svn_url}>URL: {item.svn_url}</Url>
-              <Created_at>Data Criação: {Intl.DateTimeFormat('pt-BR')
+                <Url href={item.svn_url}>{item.svn_url}</Url>
+              <Created_at>Data de Criação: {Intl.DateTimeFormat('pt-BR')
                 .format(new Date(item.created_at))}
               </Created_at>
             </Li>

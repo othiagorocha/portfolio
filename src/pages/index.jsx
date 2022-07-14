@@ -20,7 +20,7 @@ export default function Home() {
         </Link>
       </Infos>
       <Logo>
-        <Img src="/images/logo.png" alt="logo" />
+        <Img src="/images/avatar.png" alt="logo" />
       </Logo>
      </Content>
    </Container>
