@@ -54,6 +54,14 @@ export const Li = styled.li`
 
 export const TitleProject = styled.strong``;
 
-export const Url = styled.span``;
+export const Url = styled.a`
+  text-decoration: none;
+  color: inherit;
+ &:hover {
+  text-decoration: underline;
+ }
+`;
 
 export const Created_at = styled.span``;
+
+export const Description = styled.span``;
