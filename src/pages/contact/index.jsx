@@ -1,3 +1,5 @@
+export function getServerSideProps() { return { props: {} }; }
+
 import React from 'react'
 import { Container, Content } from './style'
 import { FaLinkedin, FaFacebook, FaInstagram, FaEnvelope } from 'react-icons/fa'
