@@ -1,5 +1,5 @@
 import { Container, Content } from './style'
-import { FaLinkedin, FaFacebook, FaInstagram, FaEnvelope } from 'react-icons/fa'
+import { FaLinkedin, FaInstagram, FaEnvelope, FaGithub } from 'react-icons/fa'
 import ItemContact from '../../../components/ItemContact'
 
 export default function Contact() {
@@ -11,8 +11,8 @@ export default function Contact() {
           LinkContact="https://www.linkedin.com/in/thiago-rocha-b3071b221/" 
         />
         <ItemContact 
-          IconFa={FaFacebook} 
-          LinkContact="https://www.facebook.com/ThiagoRocha0" 
+          IconFa={FaGithub} 
+          LinkContact="https://github.com/othiagorocha" 
         />
         <ItemContact 
           IconFa={FaInstagram} 

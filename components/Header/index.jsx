@@ -18,15 +18,18 @@ export default function Header() {
     <Container>
       <Content>
         <ContentTitle>
-          <Title>
-            Thiago Rocha
-          </Title>
+          <Link href={"/"}>
+            <Title>
+              Thiago Rocha
+            </Title>
+          </Link>
           <Subtitle>
             Portfólio Pessoal
           </Subtitle>
+
         </ContentTitle>
         <Menu>
-          <FaBars onClick={showSideBar}/>
+          <FaBars onClick={showSideBar} />
         </Menu>
         <NavLinks sidebar={sidebar}>
           <CloseSideBar onClick={showSideBar}><FaTimes /></CloseSideBar>

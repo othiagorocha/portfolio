@@ -18,10 +18,13 @@ export const Content = styled.div`
 
 export const ContentTitle = styled.div`
   text-align: end;
+  display: flex;
+  flex-direction: column;
 `
 
-export const Title = styled.div`
+export const Title = styled.a`
   font-size: 30px;
+  cursor: pointer;
 `;
 
 export const Subtitle = styled.span``;
